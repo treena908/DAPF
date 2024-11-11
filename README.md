@@ -20,6 +20,14 @@ Before running the run_prompt_finetune.py or run_prompt_finetune_test.py in the 
 
 After setting up the packages and downloading the PLMs in ./model/ directory, the training and test command is: you can run_prompt_finetune.py and run_switchprompt.py
 
+#DATASETS
+
+For the domain adaptation experiments, we adopted:
+
+   - the task-based benchmark dataset ADReSS2020 (https://dementia.talkbank.org/ADReSS-2020/), with its train and test split
+   -  the conversational dataset Carolina Conversation Collection (CCC) (https://carolinaconversations.musc.edu/ccc/help/access)
+Datasets access need to be taken. the dataset format is in the ./data/ folder. In cross validation for ADReSS -> CCC experiments, we adopt 5 fold cross validtion, with validation split stored in DAPF/latest_tmp_dir/five_fold.json
+
 
 
 
