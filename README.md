@@ -41,6 +41,17 @@ python post_process_vote_cv.py rand_cv_emg ./output/ model_name
 
 model_name can be "bert-base-uncased" or "roberta-base"
 
+To get the BERT+RoBRETa feature combination results, you can run the following command:
+for CCC -> ADReSS experiment:
+
+python post_process_vote.py rand_test_robbertmg ./output/ptuningv2/ roberta-base
+
+For  ADReSS -> CCC  experiment (CV):
+python post_process_vote_cv.py rand_cv_robbertmg ./output/ptuningv2/ bert-base-uncased
+
+
+
+
 
 
 
