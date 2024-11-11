@@ -18,5 +18,9 @@ Before running the run_prompt_finetune.py or run_prompt_finetune_test.py in the 
 --off_line_model_dir /model \      
 --data_dir /directory/you/store/ADReSS/data \
 
+After setting up the packages and downloading the PLMs in ./model/ directory, the training and test command is: you can run_prompt_finetune.py and run_switchprompt.py
+
+
+
 
 
