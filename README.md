@@ -26,7 +26,22 @@ For the domain adaptation experiments, we adopted:
 
    - the task-based benchmark dataset ADReSS2020 (https://dementia.talkbank.org/ADReSS-2020/), with its train and test split
    -  the conversational dataset Carolina Conversation Collection (CCC) (https://carolinaconversations.musc.edu/ccc/help/access)
-Datasets access need to be taken. the dataset format is in the ./data/ folder. In cross validation for ADReSS -> CCC experiments, we adopt 5 fold cross validtion, with validation split stored in DAPF/latest_tmp_dir/five_fold.json
+   -  
+Datasets access need to be taken. the dataset format is in the ./data/ folder. In cross validation for ADReSS -> CCC experiments, we adopt 5 fold cross validtion (CV), with validation split stored in DAPF/latest_tmp_dir/five_fold.json
+
+#Ensemble Output
+
+To get specific PLM's ensemble output based on different prompt template, command:
+
+python post_process_vote.py rand_test_merge ./output/ model_name
+
+For the ensembling the output for the CV experiemnts result:
+
+python post_process_vote_cv.py rand_cv_emg ./output/ bert-base-uncased
+
+
+
+
 
 
 
