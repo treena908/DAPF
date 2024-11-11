@@ -37,7 +37,11 @@ python post_process_vote.py rand_test_merge ./output/ model_name
 
 For the ensembling the output for the CV experiemnts result:
 
-python post_process_vote_cv.py rand_cv_emg ./output/ bert-base-uncased
+python post_process_vote_cv.py rand_cv_emg ./output/ model_name
+
+model_name can be "bert-base-uncased" or "roberta-base"
+
+
 
 
 
