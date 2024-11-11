@@ -50,6 +50,13 @@ For  ADReSS -> CCC  experiment (CV):
 python post_process_vote_cv.py rand_cv_robbertmg ./output/ptuningv2/ bert-base-uncased
 
 
+#Manual Template selection
+
+The different template positioning is given in template/manual_tempalte.txt file. 
+N.B. : If template 7 is added , template in line 8 is selected
+
+
+
 
 
 
