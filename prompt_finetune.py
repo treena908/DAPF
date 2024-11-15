@@ -1,4 +1,4 @@
-# copied and modified from  NtaylorOX/Public_Clinical_Prompt
+# copied and modified from  https://github.com/yiwang454/prompt_ad_code
 from argparse import Namespace
 from typing import Dict
 
