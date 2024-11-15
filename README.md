@@ -26,7 +26,7 @@ For the domain adaptation experiments, we adopted:
 
    - the task-based benchmark dataset ADReSS2020 (https://dementia.talkbank.org/ADReSS-2020/), with its train and test split
    -  the conversational dataset Carolina Conversation Collection (CCC) (https://carolinaconversations.musc.edu/ccc/help/access)
-   -  
+     
 Datasets access need to be taken. the dataset format is in the ./data/ folder. In cross validation for ADReSS -> CCC experiments, we adopt 5 fold cross validtion (CV), with validation split stored in DAPF/latest_tmp_dir/five_fold.json
 
 #Ensemble Output
@@ -44,10 +44,10 @@ model_name can be "bert-base-uncased" or "roberta-base"
 To get the BERT+RoBRETa feature combination results, you can run the following command:
 for CCC -> ADReSS experiment:
 
-python post_process_vote.py rand_test_robbertmg ./output/ptuningv2/ roberta-base
+python post_process_vote.py rand_test_robbertmg ./output/path_to_save/ roberta-base
 
 For  ADReSS -> CCC  experiment (CV):
-python post_process_vote_cv.py rand_cv_robbertmg ./output/ptuningv2/ bert-base-uncased
+python post_process_vote_cv.py rand_cv_robbertmg ./output/path_to_save/ bert-base-uncased
 
 
 #Manual Template selection
