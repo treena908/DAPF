@@ -55,7 +55,27 @@ python post_process_vote_cv.py rand_cv_robbertmg ./output/path_to_save/ bert-bas
 The different template positioning is given in template/manual_tempalte.txt file. 
 N.B. : If template 7 is added , template in line 8 is selected
 
+#Citation:
 
+If you find this work helpful, please cite the following in your publication, thanks!
+
+@inproceedings{farzana-parde-2024-domain,
+    title = "Domain Adaptation via Prompt Learning for {A}lzheimer`s Detection",
+    author = "Farzana, Shahla  and
+      Parde, Natalie",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.937/",
+    doi = "10.18653/v1/2024.findings-emnlp.937",
+    pages = "15963--15976",
+    
+}
 
 
 
