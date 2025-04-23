@@ -59,7 +59,8 @@ N.B. : If template 7 is added , template in line 8 is selected
 
 If you find this work helpful, please cite the following in your publication, thanks!
 
-@inproceedings{farzana-parde-2024-domain,
+@inproceedings
+{farzana-parde-2024-domain,
     title = "Domain Adaptation via Prompt Learning for {A}lzheimer`s Detection",
     author = "Farzana, Shahla  and
       Parde, Natalie",
